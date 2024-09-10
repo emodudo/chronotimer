@@ -1,0 +1,16 @@
+.container {
+    margin-top: 50px;
+    padding: 50px;
+    border: 7px solid #282828;
+    border-radius: 9px;
+    box-shadow:
+        -4px -4px 10px rgba(0, 0, 0, 0.5),
+        inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+        inset -4px -4px 10px rgba(0, 0, 0, 0.5),
+        4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.display-1 {
+    font-family: monospace; 
+    font-size: 7rem;
+}

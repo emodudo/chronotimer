@@ -1,0 +1,12 @@
+<div class="container text-center text-white">
+    <div class="display-1">{{ formatTime() }}</div>
+    <div class="btn-group mt-3">
+      <button class="btn btn-primary" (click)="startTimer()">
+        {{ hasStarted ? 'Zerar' : 'Iniciar' }}
+      </button>
+      <button class="btn btn-warning" [disabled]="!hasStarted" (click)="togglePauseResume()">
+        {{ isRunning ? 'Pausar' : 'Continuar' }}
+      </button>
+    </div>
+  </div>
+  
